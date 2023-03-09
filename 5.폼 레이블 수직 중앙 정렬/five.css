@@ -1,0 +1,53 @@
+/* common region */
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+/* h1 section */
+h1 {
+  font-size: 20px;
+  text-align: center;
+  padding: 10px auto;
+  margin: 20px 0px;
+}
+
+.row_wrap {
+  width: 400px;
+  margin: 0 auto;
+  /* border: 1px solid #000; */
+}
+.row {
+  display: flex;
+  padding: 10px 0;
+}
+.txtfield.big {
+  height: 150px;
+}
+.title_content.big {
+  height: 150px;
+}
+.title_content {
+  display: flex;
+  align-items: center;
+  width: 100px;
+  height: 40px;
+  font-weight: bold;
+  
+}
+.row_wrap .row span.kr{
+    
+}
+.txtfield {
+  flex: 1;
+  background: white;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  width: 300px;
+  height: 38px;
+  font-size: 13px;
+  padding: 10px;
+}
