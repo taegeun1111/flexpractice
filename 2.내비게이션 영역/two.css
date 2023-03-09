@@ -1,0 +1,36 @@
+.header {
+  display: flex;
+  background: #00c73c;
+}
+.gnb,
+.logo,
+.search {
+  flex: none;
+}
+/* 우측정렬 */
+.gnb {
+  margin-left: auto;
+}
+
+.logo,
+.gnb {
+  padding: 25px 30px;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.search {
+  display: flex;
+  width: 400px;
+  padding: 14px 0;
+  margin-left: 10px;
+}
+.search_button {
+  border: 0;
+  width: 37px;
+  background-color: #26a93a;
+}
+input {
+  flex: 1;
+  /* width: 322px; */
+  background-color: white;
+}
