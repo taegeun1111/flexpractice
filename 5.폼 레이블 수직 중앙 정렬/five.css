@@ -33,9 +33,11 @@ h1 {
 .title_content {
   display: flex;
   align-items: center;
+  justify-content: center;
   width: 100px;
   height: 40px;
   font-weight: bold;
+  text-align: center;
 }
 .row_wrap .row span.kr {
 }
